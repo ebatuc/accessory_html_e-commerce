@@ -1,0 +1,415 @@
+/* navbar arkaplanı düzenler */
+.navbackground {
+  /* background-color: #5d5b5ee7; */
+  /* position: fixed; */
+  box-sizing: border-box;
+  margin: 0px;
+  height: 80px;
+  width: 100%;
+}
+
+/* navbar sabitleyici */
+/* .navbarstopper {
+  background-color:  #5d5b5ee7;
+  height: 1px;
+} */
+
+/*Navbar line düzenler*/
+.topline {
+  background-color: #5d5b5ee7; 
+  position: fixed;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10px;
+  width: 100%;
+}
+
+/* Ana menü bar düzenler */
+.mainmenu {
+  background-color: #5d5b5ee7;
+  position: fixed;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  height: 80px;
+  width: 100%;
+  z-index: 500;
+}
+
+/* Logo yazısını düzenler */
+.logo {
+  display: inline-block;
+  padding: 0px 15px 0px 0px;
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  margin: 0px 40px 0px 20px;
+  border-right: solid 1px #fa0707;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  position: relative;
+  cursor: pointer;
+text-decoration: none;
+}
+
+.logolink {
+  text-decoration: none;
+  color: #000000;
+}
+
+/* Kategori alanını düzenler */
+.menu {
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0;
+  display: flex;
+}
+
+.menu li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Kategori yazılarını düzenler */
+.menu a {
+  display: block;
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: "Nunito Sans", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: white;
+  text-decoration: none;
+  padding: 30px 20px 30px 5px;
+}
+
+.menu a:hover {
+  color: #faa907;
+  transition: 0.3s;
+}
+
+.dropdown {
+  position: relative;
+}
+
+/* Dropdown menü düzenler */
+.dropdownmenu {
+  display: none;
+  position: absolute;
+  list-style-type: none;
+  background-color: #5d5b5ee7;
+  width: 120px;
+  padding: 2px;
+  text-align: center;
+  justify-content: center;
+  margin: 2px 0 0 -25px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdownmenu {
+  display: block;
+}
+
+/* Dropdown yazı arası çizgi kalınlığı */
+.dropdownmenu li {
+  border-bottom: 1px solid #494849;
+}
+
+.dropdownmenu li:last-child {
+  border-bottom: none;
+}
+
+/* Navbar sağdaki logoları düzenler  */
+.rightbar {
+  display: inline-flex;
+  cursor: pointer;
+  padding-top: 7px;
+  text-align: center;
+  margin-left: 530px;
+  align-items: center;
+  overflow: hidden;
+  /* float: right; */
+  /* justify-content:end; */
+  font-size: 12px;
+}
+
+/* BODY DÜZENLEME */
+body {margin: 0;
+padding: 0;
+}
+
+.video {
+  object-fit: cover;
+  position: relative;
+  background-color: #000000;
+  padding: 0px;
+  margin: 0px;
+  z-index: -10;
+  height: 600px;
+  width: 100%;
+}
+
+.salesarea {
+  padding: 50px 20px 50px 250px;
+  margin: 50px;
+  
+  align-items: center;
+  /* background-color: #000000; */
+  }
+
+  .card-container {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .card {
+    border-radius: 8px;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .product {
+    text-align: center;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: "Nunito Sans", sans-serif;
+    padding: 5px;
+    z-index: -1;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+
+  .product:hover{
+    scale: 120%;
+  transition: .5s ease; }
+
+  .productlink
+  {
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  .product img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .price {
+    font-size: 1.2em;
+    color: #f36f6f;
+  }
+  
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%; /*1rem = 10px*/
+}
+
+body,
+h1,
+h2,
+ul {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+
+/*******************/
+body {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+/* ---------------------------------------------------------------------------------------- */
+
+/* Footer arka planını düzenler */
+.footerarkaplan {
+  display: block;
+  background-color: #ffffff;
+  height: 350px;
+  width: auto;
+  /* padding-top: 60px; */
+}
+
+/* footer marka tanıtımının arkaplanını düzenler */
+.brandintro {
+  display: block;
+  width: 500px;
+  float: left;
+  height: 100%;
+  padding: 40px 20px 20px 20px;
+  margin: 10px;
+  background-color: #6d6868;
+  border-right: solid 1px #000000;
+  margin: 0 auto;
+}
+
+/* Footer marka logosunu düzenler */
+.brandlogo {
+  display: flex;
+  font-size: 50px;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  position: relative;
+}
+
+/* Abonelik yazısını düzenler. */
+.subscribetext {
+  display: block;
+  /* text-align: center; */
+  font-size: 12px;
+  font-weight: bold;
+  font-family: "Nunito Sans", sans-serif;
+  letter-spacing: 2px;
+  color: white;
+  text-decoration: none;
+  padding: 10px 90px 5px 90px;
+}
+
+/* Abonelik için giriş yerini düzenler */
+.subscribeback {
+  align-items: center;
+  padding: 10px 90px 5px 90px;
+}
+
+/* Abonelik placeholder düzenler */
+.subscribe {
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  border-radius: 25px 0 0 25px;
+  padding: 0 0 0 25px;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Nunito Sans", sans-serif;
+  height: 48px;
+  width: 140px;
+  margin: 0px;
+}
+
+/* Abonelik butonu düzenler */
+.subscribebutton {
+  position: relative;
+  display: inline-block;
+  padding: 0px;
+  left: -2px;
+  height: 48px;
+  width: 120px;
+  border-radius: 0 25px 25px 0;
+  border: none;
+  background:none;
+  outline: none;
+  cursor: pointer;
+  background-color:#000000;
+  color:  #faa907;
+  font-size: 15px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-family: "Nunito Sans", sans-serif;
+  transition: 0.5s;
+}
+
+.subscribebutton:hover{
+background-color:#faa907;
+  color:#000000;}
+
+.adres{
+  padding-top: 15px;
+  font-size: 10px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-family: "Nunito Sans", sans-serif;
+  color: #fff;
+
+  }
+
+  /* footer sağ taraf koşulları düzenler */
+  .termsback
+  {
+    width: auto;
+    height: 100%;
+    padding: 40px 20px 20px 550px;
+    background-color: #6d6868;
+  }  
+  
+/* first terms */
+.firstterm{
+  display: inline-block;
+padding: 10px 20px 20px 110px;
+}
+
+/* terms başlıklarını düzenler */
+.termhead {
+font-size: 12px;
+margin: 0px;
+padding: 10px;
+text-transform: uppercase;
+text-decoration: underline;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-family: "Nunito Sans", sans-serif;
+  color: #faa907;
+}
+
+
+/* terms yazılarını düzenler */
+.listterm li {
+font-size: 12px;
+padding: 10px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-family: "Nunito Sans", sans-serif;
+  color: #fff;
+  cursor: pointer;
+}
+.listterm li:hover {
+  color:#faa907;}
+
+  /* copyright yazısını düzenler */
+  .copyright{
+    font-size: 12px;
+padding: 45px 15px 15px 15px;
+  font-weight: bold;
+  font-family: "Nunito Sans", sans-serif;
+  color: #383636;
+  }
+
+.tarih{
+  color: #000000;
+  font-weight: bold;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 10px;
+  float: right;
+}

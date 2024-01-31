@@ -1,0 +1,78 @@
+.product-preview {
+  display: flex;
+  /* border: 1px solid #000000; */
+  border-radius: 5px;
+  padding: 20px;
+  margin: 100px 200px 100px 200px;
+  box-shadow: 0 2px 30px rgba(0.5, 0.5, 0.5, 0.5);
+}
+
+.product-image {
+  flex: 1;
+  padding: 10px;
+}
+
+.product-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.product-info {
+  flex: 2;
+  padding: 10px;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 12px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-family: "Nunito Sans", sans-serif;
+  resize: none;
+}
+
+.product-info h2 {
+  font-size: 24px;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-family: "Nunito Sans", sans-serif;
+  resize: none;
+}
+
+.product-price {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.product-description {
+  font-size: 14px;
+  color: #555;
+}
+
+.view-details-button {
+  width: 150px;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-family: "Nunito Sans", sans-serif;
+    background-color: #000000;
+  color: #faa907;
+  border: none;
+  border-radius: 10px;
+  padding: 20px 20px;
+  cursor: pointer;
+}
+
+.view-details-button:hover {
+  color: #000000;
+  background-color: #faa907;
+  transition: 0.5s;
+}

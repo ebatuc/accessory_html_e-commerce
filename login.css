@@ -1,0 +1,61 @@
+.acclog {
+  width: 500px;
+  height: auto;
+  display: inline-block;
+  padding: 20px 100px 20px 20px;
+  border: 1px solid #000000;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 45px auto 45px 520px;
+}
+
+.acclog2 {
+  width: 250px;
+  align-items: center;
+  height: auto;
+  display: inline-block;
+  padding: 20px;
+  border: 1px solid #000000;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 45px auto 45px 100px;
+}
+
+.acchead {
+  margin-bottom: 15px;
+  display: block;
+  font-weight: bold;
+  font-size: 15px;
+  letter-spacing: 2px;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+/* input düzenler */
+.acclog-input,
+.acclog-button {
+    width: 180px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 12px;
+  letter-spacing: 2px;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.acclog-button {
+  width: 180px;
+    background-color: #000000;
+  color: #faa907;
+  border: none;
+  cursor: pointer;
+}
+
+.acclog button:hover {
+  color: #000000;
+  background-color: #faa907;
+  transition: 0.5s;
+}

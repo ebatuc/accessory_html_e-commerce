@@ -1,0 +1,36 @@
+.pageorder {
+    display: inline-block;
+  object-fit: cover;
+  position: relative;
+  padding: 20px 100px 20px 100px;
+  margin: 0px;
+  z-index: -10;
+  height: 100%;
+  width: 100%;
+}
+
+.blogtitle {
+  display: block;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "Nunito Sans", sans-serif;
+  letter-spacing: 2px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-style: italic;
+  padding: 30px 0px 30px 5px;
+}
+
+.blogtext {
+  display: block;
+  padding: 10px 120px 0 120px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Nunito Sans", sans-serif;
+  letter-spacing: 2px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-style: italic;
+}
